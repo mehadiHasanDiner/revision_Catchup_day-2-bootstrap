@@ -10,3 +10,18 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+#seat-container li {
+    padding-right: 20px;
+    background-image: url(img/seat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    background-origin: content-box;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 35, 80);
+    background-color: rgb(203, 212, 210);
+}
